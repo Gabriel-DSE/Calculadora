@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+table{
+    position: absolute;
+    background-color:black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.btn-laranja{
+    background-color: black;
+    color: rgb(255, 116, 51);
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-branco{
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-equal{
+    background-color:rgb(255, 116, 51);
+    color: white;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 25px;
+
+}
+
+.btn-laranja:active{
+    border-radius: 40px;
+    background-color: gray;
+    opacity: 0.6;
+}
+
+.btn-branco:active{
+    border-radius: 40px;
+    background-color: gray;
+    opacity: 0.6;
+}
+
+.btn-equal:active{
+    width: 117px;
+    height: 47px;
+    transition: 0.8ms;
+}
+
+#resultado{
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    text-align: right;
+    position: absolute;
+    width: 16%;
+    height: 100px;
+    margin-left: 635px;
+    overflow-wrap: break-word;
+    margin-top: 33px;
+    z-index: 5;
+}
+
+
+
+
+
